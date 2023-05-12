@@ -8,7 +8,6 @@ import Button from "@mui/material/Button";
 import Link from "next/link";
 import styles from "./Navigation.module.css";
 import Image from "next/image";
-import avatar from "../image/avatar.jpg";
 
 const link = [
   { label: "Home", route: "/" },
@@ -37,8 +36,7 @@ export default function Navigation() {
             <Link href="/pagePassHref" replace>
               Prueba
             </Link>
-          </Button>          
-            <Image src={avatar} width="50" height="50" />          
+          </Button>
         </Box>
       </Toolbar>
     </AppBar>
